@@ -9,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AlumnosComponent {
 
+  public titulo: string = 'Listado de Alumnos';
+  // se pueden omitir el public, el tipo y el punto y coma
+  // titulo = 'Listado de Alumnos'
+
 }
